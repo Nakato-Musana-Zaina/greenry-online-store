@@ -1,0 +1,98 @@
+body{
+    padding: auto;
+    background-color: rgb(139, 141, 139);
+}
+.div1{
+    display: flex ;
+}
+.nanvbar{
+    display: flex;
+    background-color: green;
+    border: solid 2px;
+    color: white;
+    padding: 12px;
+}
+.toolbar{
+    display: flex;
+    gap: 5%;
+}
+.text1{
+    font-size: xx-large;
+}
+.text{
+    color: green; font-size: larger;
+}
+.text2{
+    color: black;
+    font-size: larger;
+}
+.text3{
+    font-size: x-large;
+}
+.text4{
+    font-size: xx-large;
+    font-style: inherit;
+background-image: url();
+}
+.div2{
+    display: flex;
+}
+.text5{
+    color: silver;
+    font-size: medium;
+}
+.text6{
+    color: green;
+    font-size: x-large;
+}
+.image1{
+
+}
+.image2{
+
+}
+.text7{
+    font-size: x-large;
+    color: silver;
+}
+.div5{
+    display: flex;
+}
+.text8{
+    color: green;
+    font-size: medium;
+}
+.div6{
+    text-align: center; 
+    padding: 24px; 
+}
+.button{
+    background-color: green;
+    color: white;
+    padding: 12px;
+    border-radius: 8%;
+
+
+}
+.div3{
+    display: flex;
+}
+@media screen and (min-width: 250px) and (max-width: 950px){
+    .div3{
+        flex-direction: column;
+    }
+    .div1{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .toolbar{
+        display: flex;
+        flex-direction: column;
+        gap: 1%
+    }
+    .image1{
+        width: 20%;
+    }
+}
