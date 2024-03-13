@@ -1,11 +1,12 @@
 body{
     padding: auto;
-    background-color: rgb(139, 141, 139);
+    background-color: rgb(243, 248, 243);
 }
 .div1{
     display: flex ;
+    gap: 8%;
 }
-.nanvbar{
+.navbar{
     display: flex;
     background-color: green;
     border: solid 2px;
@@ -51,9 +52,25 @@ background-image: url();
 .image2{
 
 }
+.div10{
+    text-align: center;
+}
+.div11{
+    background-color: rgb(86, 173, 86);
+
+}
+/* .div12{ 
+    display: flex;
+    gap:2% */
+}
+
+
 .text7{
     font-size: x-large;
     color: silver;
+}
+.div4{
+    text-align: center;
 }
 .div5{
     display: flex;
@@ -94,5 +111,8 @@ background-image: url();
     }
     .image1{
         width: 20%;
+    }
+    .div1{
+        flex-direction: column;
     }
 }
