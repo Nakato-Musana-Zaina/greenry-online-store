@@ -2,9 +2,17 @@ body{
     padding: auto;
     background-color: rgb(243, 248, 243);
 }
+
+.paper-wrapper {
+    background-color: white;
+    padding: 90px;
+    margin: 10%;
+
+}
 .div1{
     display: flex ;
-    gap: 8%;
+    gap: 12%;
+    
 }
 .navbar{
     display: flex;
@@ -47,21 +55,22 @@ background-image: url();
     font-size: x-large;
 }
 .image1{
-
+width: 150%;
 }
 .image2{
-
+width: 100%;
 }
 .div10{
     text-align: center;
 }
 .div11{
     background-color: rgb(86, 173, 86);
+    text-align: center;
 
 }
-/* .div12{ 
+.div12{ 
     display: flex;
-    gap:2% */
+    gap:2% 
 }
 
 
@@ -73,7 +82,10 @@ background-image: url();
     text-align: center;
 }
 .div5{
-    display: flex;
+     display: flex;
+     gap: 10%;
+    
+    
 }
 .text8{
     color: green;
@@ -83,7 +95,7 @@ background-image: url();
     text-align: center; 
     padding: 24px; 
 }
-.button{
+.button1{
     background-color: green;
     color: white;
     padding: 12px;
@@ -94,25 +106,54 @@ background-image: url();
 .div3{
     display: flex;
 }
+.gap{
+    gap: 8%;
+}
+.div8{
+    gap: 8%;
+}
+.image3{
+    width: 100%;
+}
+.image5{
+    width: 200%;
+}
+.image6{
+    width: 180%;
+    height: 80%
+}
+.div13{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 90px;
+}
+.div14{
+    display: flex;
+}
+.image6{
+    width: 50%;
+    height: 30%;
+}
 @media screen and (min-width: 250px) and (max-width: 950px){
     .div3{
         flex-direction: column;
     }
-    .div1{
-        flex-direction: column;
+
+
+        .navbar{
+            flex-direction: column;
+        }
+        .toolbar{
+            display: flex;
+            flex-direction: column;
+            gap: 1%
+        }
+        .image1{
+            width: 20%;
+        }
+        .div1{
+            flex-direction: column;
+        }
     }
-    .navbar{
-        flex-direction: column;
-    }
-    .toolbar{
-        display: flex;
-        flex-direction: column;
-        gap: 1%
-    }
-    .image1{
-        width: 20%;
-    }
-    .div1{
-        flex-direction: column;
-    }
-}
+
+    
